@@ -1,0 +1,193 @@
+
+/* Responsivo da pagina */
+
+@media only screen and (max-width:900px){
+    .up {
+        margin-left: 0;
+      }
+    .logo{
+        position: absolute;
+        left: 50%;
+        margin-left: -120px;
+    }  
+    .response{
+        display: inline;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 20px;
+        z-index: 4;
+    }
+    .search{
+        display:none;
+    }
+    .searchResponse{
+        z-index: 10;
+        background-color: #ffffff;
+        position: absolute;
+        border: solid 1px;
+        border-radius: 5px;
+        width: 70%;
+        height: 36px;
+        margin-top: 30px;
+        margin-left: 25%;
+    }
+    .txtSearch {
+        float: left;
+        position: absolute;
+        background-color: transparent;
+        padding-left: 5px;
+        border-radius: 5px;
+        border: none;
+        height: 35px;
+        margin-left: 5px;
+        width: 85%;
+    }
+    .shipping-promotion{
+            position: absolute;
+            width: 100%;
+            height: 30px;
+            margin-top: 100px;
+            margin-left: 0;
+            background-color: #ebebeb;
+    }
+    .words-promotion{
+        width: 230px;
+        display: flex;
+        position: absolute;
+        left: 50%;
+        margin-left: -115px;
+        font-style: italic;
+    }
+    .parte1 {
+        font-size: 15px;
+        line-height:5px;
+        color: #72666e;
+        margin-right: 5px;
+        left: 100%;
+    }
+    .parte2 {
+        font-family: Droid;
+        font-size: 15px;
+        color: #72666e;
+        line-height: 5px;
+    }
+    .fa-caret-down{
+        display: none;
+    }
+    .bag{
+        position: absolute;
+        width: 60px;
+        left: 100%;
+        margin-top: 25px;
+        margin-left: -15%;
+    }
+    .txtbag {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .cauldron {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 5px
+    }
+    .login{
+        position: absolute;
+        width: 100%;
+    }
+
+    .down{
+        z-index: 100;
+        display: none;
+        position:absolute;
+        margin-top: 100px;
+        background-color: transparent;
+    }
+    .login{
+        background-color: #523468;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .products{
+        margin-top: 160px;
+    }
+    .product-expo{
+        width: 50%;
+        margin-left: 0%;
+    }
+    .informations img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .informations{ 
+        top: 0;
+        margin-left: 20%;
+        width: 60%;
+        height: auto;
+        margin-top: 20%;
+        background-color: #FFFFFF;
+    }
+    .words{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 10%;
+        float: right;
+        text-align: center;
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 901px) and (max-width: 1140px) {
+    .product-name{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .product-name{
+        font-size: 18px;
+    }
+}
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+
+@media only screen and (max-width:900px){
+    .newsletter{
+        width: 90%;
+    }
+    .newsletter-email input {
+        border: 1px solid #000000;
+        border-radius: 5px;
+        width: 70%;
+        background-color: transparent;
+        padding-left: 5px;
+        border-radius: 5px;
+        height: 35px;
+        font-family: Droid;
+    }
+
+    .options-footer{
+        display: none;
+    }
+    footer{
+        height: 400px;
+    }
+    .social{
+        margin-top: 250px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .ico {
+        margin-left: 8.333333333%;
+        width: 10%;
+    }
+    .copyr{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 325px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:625px) and (max-width:900px){
+    .ico {
+        margin-left: 10%;
+        width: 8%;
+    }
+}

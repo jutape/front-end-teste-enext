@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <title>Merlin's Potions</title>
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:light" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/master.js"></script>
+</head>     
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Parte de cima branca -->
+        <!-- logo -->
+        <div class="up">
+            <input type="checkbox"  onclick="changeName()" id="btn-menu">
+            <a class="icon" >
+            <label class="response" for="btn-menu">&#9776;</label>
+            </a>
+            <div class="logo">
+                <img src="img/merlin's logo.svg" alt="merlin-logo">
+            </div>
+            <!-- busca -->
+            <div class="search" id="search">
+                <label for="txtsearch"><img src="img/lupa.svg" class="btnSearch" alt="Buscar" /></label>
+                <input type="text" class="txtSearch" placeholder="Search our stock" id="txtsearch" />
+            </div>
+            <!-- promotion -->
+            <div class="shipping-promotion">
+                <div class="words-promotion">
+                    <p class="parte1">Free Shipping</p>
+                    <p class="parte2">on orders over $50</p>
+                </div>
+            </div>
+            <!-- bag -->
+            <div class="bag">
+                <img class="cauldron" src="img/cauldron.svg" alt="cauldron">
+                <p class="txtbag">BAG: <a class="quant-bag">1</a></p>
+            </div>
+        </div>
+        <div class="down" id="myTopnav">
+            <nav>
+                <a href="#" class="active">Potions<i class="fas fa-caret-down"></i></a></li>
+                <a href="#">Ingredients<i class="fas fa-caret-down"></i></a></li>
+                <a href="#">Books<i class="fas fa-caret-down"></i></a></li>
+                <a href="#">Supplies<i class="fas fa-caret-down"></i></a></li>
+                <a href="#">Charms<i class="fas fa-caret-down"></i></a></li>
+                <a class="clearence" href="#">Clearence!</a></li>
+            </nav>
+            <div class="login">
+                <p ><a class="login-options" href="#">Sign In</a> or <a class="login-options" href="#">Sign Up</a></p>
+            </div>
+        </div>
+        <div class="bg-white" id="bg-white"></div>
+    </header>
+    
+    <div class="products">
+        <p class="product-title">Potions</p>
+        <div class="list-product">
+            <div class="product-expo">
+                <a class="linkimg" href="javascript:void(0);" onclick="lbox(1)">
+                    <img src="img/products/aging-potion.png" alt="produto">
+                    <p class="product-name">Aging Potion - <a class="price" href="#">$29,99</a></p>
+                </a>
+            </div>
+            <div class="product-expo">
+                <a class="linkimg" href="javascript:void(0);" onclick="lbox(2)">
+                    <img src="img/products/bulgeye-potion.png" alt="produto">
+                    <p class="product-name">Bulgeye Potion - <a class="price" href="#">$19,99</a></p>
+                </a>
+            </div>
+            <div class="product-expo">
+                <a class="linkimg" href="javascript:void(0);" onclick="lbox(3)">
+                    <img src="img/products/dragon-tonic.png" alt="produto">
+                    <p class="product-name">Dragon Potion - <a class="price" href="#">$64,99</a></p>
+                </a>
+            </div>
+            <div class="product-expo">
+                <a class="linkimg" href="javascript:void(0);" onclick="lbox(4)">
+                    <img src="img/products/love-potion.png" alt="produto">
+                    <p class="product-name">Love Potion - <a class="price" href="#">$29,99</a></p>
+                </a>
+            </div>
+            <div class="product-expo">
+                <a class="linkimg" href="javascript:void(0);" onclick="lbox(5)">
+                    <img src="img/products/polyjuice-potion.png" alt="produto">
+                    <p class="product-name">Polyjuice Potion - <a class="price" href="#">$99,99</a></p>
+                </a>
+            </div>
+            <div class="product-expo">
+                <a class="linkimg" href="javascript:void(0);" onclick="lbox(6)">
+                    <img src="img/products/sleeping-draught.png" alt="produto">
+                    <p class="product-name">Sleeping Draugt - <a class="price" href="#">$14,99</a></p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="newsletter">
+            <p>Sign up for our Newsletter</p>
+            <p>Sign up for our Newsletter & get exclusive discounts!</p>
+            <form action="#" class="newsletter-email">
+                <input type="email" placeholder="Enter your email">
+                <button>SUBMIT</button>
+            </form>
+        </div>
+        <div class="options-footer">
+            <nav class="menu-footer">
+                <ul>
+                    <li><a href="#">COMPANY</a></li>
+                    <li><a href="#">RETURN</a></li>
+                </ul>
+            </nav>
+            <nav class="menu-footer">
+                <ul>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">CAREERS</i></a></li>
+                </ul>
+            </nav>
+            <nav class="menu-footer">
+                <ul>
+                    <li><a href="#">SHIPPING</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="social">
+            <a href="#"><img src="img/facebook-square-brands.svg" class="ico" alt="google ico"></a>
+            <a href="#"></a><img src="img/twitter-square-brands.svg" class="ico" alt="twitter ico"></a>
+            <a href="#"></a><img src="img/pinterest-square-brands.svg" class="ico" alt="pinterest ico"></a>
+            <a href="#"></a><img src="img/tumblr-square-brands.svg" class="ico" alt="tumblr ico"></a>
+            <a href="#"></a><img src="img/google-plus-square-brands.svg" class="ico" alt="google ico"></a>
+        </div>
+        <div class="copyr">
+            <p>© 2015 Merlin's Potions. All Rights reserved</p>
+        </div>
+    </footer>
+    <div class="lbox" id="lbox">
+        <div class="bg" id="bg"></div>  
+        <div class="informations">
+            <a class="close" onclick="lbox()">X</a>
+            <img src="" id="product-box" alt="Produto">
+            <div class="words">
+                <p class="nome title-box" id="nome"></p>
+                <p class="title-box">Use effect</p>
+                <p class="effect" id="effect"></p>
+                <p class="title-box">Igredients</p>
+                <p class="igredients" id="igredients"></p>
+                <p class="title-box title-price">Price:</p>
+                <p class="price" id="price"></p>
+                <button class="btn-cart">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
